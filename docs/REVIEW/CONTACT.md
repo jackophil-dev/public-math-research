@@ -8,8 +8,11 @@ We welcome rigorous peer feedback, technical inquiries, and independent verifica
 
 If you have identified a logical gap, want to discuss the Smith Normal Form (SNF) computations, or wish to contribute independent verification results for the open targets in **Part II**:
 
+* **Name:** Philippe Beauchamp
+* **ORCID:** [0009-0003-7407-394X](https://orcid.org/0009-0003-7407-394X)
 * **Primary Research Email:** philippe_beauchamp@hotmail.com
 * **Facebook:** [facebook.com/jackoanon](https://www.facebook.com/jackoanon)
+* **MathOverflow:** [Research question on lattice discriminant groups](https://mathoverflow.net/questions/515695/what-additional-data-are-needed-to-identify-a-lattice-discriminant-group-with-a)
 * **GitHub Repository:** [jackophil-dev/public-math-research](https://github.com/jackophil-dev/public-math-research)
 
 ## 🔒 Guidelines for Collaboration & Feedback
