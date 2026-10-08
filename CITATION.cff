@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use or reference this research, please cite it."
+title: "Public Math Research & Verification Framework"
+type: software
+authors:
+  - family-names: Beauchamp
+    given-names: Philippe
+    orcid: "https://orcid.org/0009-0003-7407-394X"
+repository-code: "https://github.com/jackophil-dev/public-math-research"
+license: "CC-BY-4.0"
+date-released: "2026-10-08"
+version: "2026-10-08"
