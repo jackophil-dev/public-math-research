@@ -1,36 +1,44 @@
 # Navier–Stokes Research
 
-This directory is reserved for the Navier–Stokes research track.
+This directory contains the public Navier–Stokes research track.
 
 ## Public status
 
 **Status: OPEN / WORK IN PROGRESS**
 
-The public repository intentionally contains only the research structure for now. No private derivation, unreleased calculation, hidden obstruction, or claimed solution is published here.
+The released material records exact differential identities, derived local decompositions, and explicit unresolved regularity obligations. No completed global regularity proof or finite-time singularity construction is claimed.
 
-The purpose of this directory is to provide a stable public place for future certificates and theorem-level notes once they are ready for release.
+## Mathematical core
 
-## Certificate structure
+- [Core Mathematical Identities](./CORE-MATHEMATICAL-IDENTITIES.md)
+- [Regularity Boundary](./THEOREMS/REGULARITY-BOUNDARY.md)
 
-Certificates will be numbered sequentially:
+### Released certificates
 
-- `CERTIFICATES/CERT-001/`
-- `CERTIFICATES/CERT-002/`
-- `CERTIFICATES/CERT-003/`
-- `CERTIFICATES/CERT-004/`
-- and so on.
+- [CERT-NS-001 — Vorticity Transport](./CERTIFICATES/CERT-NS-001-VORTICITY-TRANSPORT.md) — **PROVED**
+- [CERT-NS-002 — Global Enstrophy](./CERTIFICATES/CERT-NS-002-ENSTROPHY.md) — **PROVED**
+- [CERT-NS-003 — Magnitude/Direction Factorization](./CERTIFICATES/CERT-NS-003-MAGNITUDE-DIRECTION.md) — **PROVED** on \(\rho>0\)
+- [CERT-NS-004 — Local Magnitude/Direction Balance](./CERTIFICATES/CERT-NS-004-LOCAL-BALANCE.md) — **DERIVED**
 
-Each certificate must preserve the same research discipline used elsewhere in this repository:
+## Research boundary
 
-- **PROVED** — mathematical proof supplied and checked.
-- **COMPUTATIONALLY VERIFIED** — computation/certificate verified within its stated scope.
-- **DERIVED** — consequence of previously established results.
-- **OPEN** — unresolved obligation; not presented as a solution.
+The central nonlinear term is
 
-## Scope placeholder
+\[
+\int_\Omega \omega^T S\omega\,dx,
+\qquad
+S=\frac{\nabla u+\nabla u^T}{2}.
+\]
 
-The research track concerns the three-dimensional incompressible Navier–Stokes regularity problem, including the vorticity formulation, vortex stretching, factorization of vorticity direction/magnitude, critical closure estimates, and the obstruction separating a local mechanism from global regularity.
+Controlling this term sufficiently to close the global regularity problem remains **OPEN**.
 
-No solution claim is made by this placeholder.
+A growth estimate is not automatically a finite-time blow-up proof, and a regularity criterion is not automatically a construction of a singular solution.
 
-Future released material will be added one certificate at a time.
+## Status discipline
+
+- **PROVED** — exact identity/theorem established under stated assumptions.
+- **DERIVED** — direct consequence of established identities.
+- **COMPUTATIONALLY VERIFIED** — independently reproduced within stated scope.
+- **OPEN** — unresolved obligation.
+
+The previously empty certificate placeholders were removed. Their missing original source texts are not reconstructed or fabricated.
