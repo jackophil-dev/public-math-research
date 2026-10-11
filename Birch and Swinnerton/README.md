@@ -1,29 +1,42 @@
 # Birch and Swinnerton-Dyer Conjecture — Part I
 
-**Author:** Philippe Beauchamp  
+**Researcher:** Philippe Beauchamp  
 **ORCID:** [0009-0003-7407-394X](https://orcid.org/0009-0003-7407-394X)  
-**Publication status:** Published on Zenodo — Version 1.0.0, Part I — Research in Progress  
+**Status:** Published research-in-progress preprint — Version 1.0.0  
 **DOI:** [10.5281/zenodo.23304606](https://doi.org/10.5281/zenodo.23304606)  
 **License:** CC BY 4.0
 
-The Zenodo record is the canonical publication and archival snapshot for this release. Use it for the versioned citation and the complete deposited research files.
+## Overview
 
-- **[Open the published Zenodo record](https://zenodo.org/records/23304606)**
+This directory organizes the public BSD Part I research framework using four numbered sections. The layout follows a single path from research scope, through certificates and theorem records, to the supplementary Ammonite geometry material.
+
+The versioned Zenodo deposit is the canonical archive for the complete research files.
+
+- **[Published Zenodo record](https://zenodo.org/records/23304606)**
 - [BSD-Ammonite-Research-Snapshot-2026-10-11.md](https://zenodo.org/records/23304606/files/BSD-Ammonite-Research-Snapshot-2026-10-11.md?download=1)
 - [BSD-FULL-RESEARCH-ARCHIVE-2026-10-11.md](https://zenodo.org/records/23304606/files/BSD-FULL-RESEARCH-ARCHIVE-2026-10-11.md?download=1)
-- [Publication and citation details](PUBLICATION.md)
+- [Publication and citation details](Publication.md)
 
-## Directory guide
+## Research structure
 
-- [Research Scope](Research%20Scope/README.md) — scope, evidence categories, and limitations.
-- [Certificate Architecture](Certificate%20Architecture/BSD-CERT-REGISTER.md) — BSD-CERT C001–C010 status register.
-- [Theorem Register](Theorem%20Register/BSD-T-REGISTER.md) — BSD-T theorem register, including disclosed duplicate identifiers.
-- [Supplementary Ammonite Geometry Records](Supplementary%20Ammonite%20Geometry%20Records/AMMONITE-REGISTER.md) — AM-T001–AM-T007 and Ammonite certificate-document register.
+1. **[01 — Research Scope and Mathematical Objectives](01-Research-Scope-and-Mathematical-Objectives/RESEARCH-SCOPE.md)**  
+   Defines the research question, evidence labels, reference formula, reproducibility requirements, and open obligations.
 
-This GitHub directory provides a navigable public index. The two complete research files are linked from the canonical Zenodo record; the registers here summarize their organization and do not replace the complete statements, proofs, calculations, or certificate contents.
+2. **[02 — Certificate Architecture: BSD-CERT Series](02-Certificate-Architecture-BSD-CERT-Series/BSD-CERT-REGISTER.md)**  
+   Indexes certificates C001–C010 and records their current scope/status boundaries.
 
-## Mathematical status
+3. **[03 — Theorem Register: BSD-T Series](03-Theorem-Register-BSD-T-Series/BSD-T-REGISTER.md)**  
+   Indexes theorem records T001–T022 and explicitly discloses duplicate identifiers reported in the release.
 
-This release does **not** claim a proof of the general Birch and Swinnerton-Dyer Conjecture. The records distinguish proved statements within stated hypotheses, computationally verified results, derived identities, and open obligations. A certificate or theorem listing is not by itself independent verification of the underlying claim.
+4. **[04 — Supplementary Ammonite Geometry Records](04-Supplementary-Ammonite-Geometry-Records/AMMONITE-REGISTER.md)**  
+   Indexes the Ammonite certificate and theorem records as a separate supplementary geometric investigation.
 
-The Ammonite records constitute a supplementary geometric investigation, not additional proofs of BSD.
+## Scientific status
+
+This release **does not claim a proof of the general Birch and Swinnerton-Dyer Conjecture**. Each status applies only to the stated result and hypotheses. A register entry is a navigation and audit aid, not an independent verification of the full underlying proof or computation.
+
+The Ammonite records constitute a supplementary geometric investigation, not additional proofs of BSD. The proposed geometry-to-arithmetic bridge remains open wherever it has not been established by a defined map and proof.
+
+## Citation
+
+Beauchamp, P. (2026). *Birch and Swinnerton-Dyer Conjecture: Part I — Research Framework, Computational Certificates, and Open Problems* (Version 1.0.0 — Part I — Research in Progress). Zenodo. [https://doi.org/10.5281/zenodo.23304606](https://doi.org/10.5281/zenodo.23304606)
