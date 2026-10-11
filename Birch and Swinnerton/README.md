@@ -2,14 +2,16 @@
 
 **Author:** Philippe Beauchamp  
 **ORCID:** [0009-0003-7407-394X](https://orcid.org/0009-0003-7407-394X)  
-**Status:** Research in progress  
+**Publication status:** Published on Zenodo — Version 1.0.0, Part I — Research in Progress  
+**DOI:** [10.5281/zenodo.23304606](https://doi.org/10.5281/zenodo.23304606)  
 **License:** CC BY 4.0
 
-This directory organizes the public source-side index for Part I of the BSD research program. The dated Zenodo deposit is the archival snapshot and contains the full research archive and Ammonite research snapshot:
+The Zenodo record is the canonical publication and archival snapshot for this release. Use it for the versioned citation and the complete deposited research files.
 
-- [Zenodo record 23304606](https://zenodo.org/records/23304606)
-- `BSD-Ammonite-Research-Snapshot-2026-10-11.md`
-- `BSD-FULL-RESEARCH-ARCHIVE-2026-10-11.md`
+- **[Open the published Zenodo record](https://zenodo.org/records/23304606)**
+- [BSD-Ammonite-Research-Snapshot-2026-10-11.md](https://zenodo.org/records/23304606/files/BSD-Ammonite-Research-Snapshot-2026-10-11.md?download=1)
+- [BSD-FULL-RESEARCH-ARCHIVE-2026-10-11.md](https://zenodo.org/records/23304606/files/BSD-FULL-RESEARCH-ARCHIVE-2026-10-11.md?download=1)
+- [Publication and citation details](PUBLICATION.md)
 
 ## Directory guide
 
@@ -18,10 +20,10 @@ This directory organizes the public source-side index for Part I of the BSD rese
 - [Theorem Register](Theorem%20Register/BSD-T-REGISTER.md) — BSD-T theorem register, including disclosed duplicate identifiers.
 - [Supplementary Ammonite Geometry Records](Supplementary%20Ammonite%20Geometry%20Records/AMMONITE-REGISTER.md) — AM-T001–AM-T007 and Ammonite certificate-document register.
 
-This GitHub index summarizes the register information visible in the Part I publication description. It does not replace the complete statements, proofs, calculations, or certificate contents in the Zenodo archive.
+This GitHub directory provides a navigable public index. The two complete research files are linked from the canonical Zenodo record; the registers here summarize their organization and do not replace the complete statements, proofs, calculations, or certificate contents.
 
 ## Mathematical status
 
 This release does **not** claim a proof of the general Birch and Swinnerton-Dyer Conjecture. The records distinguish proved statements within stated hypotheses, computationally verified results, derived identities, and open obligations. A certificate or theorem listing is not by itself independent verification of the underlying claim.
 
-Historical labels such as “PRIVATE” retained inside the released research record describe the history of the working files; they do not mean those records are omitted from the Part I public release.
+The Ammonite records constitute a supplementary geometric investigation, not additional proofs of BSD.
