@@ -2,7 +2,7 @@
 
 **Status: exploratory research framework — not a demonstrated machine or validated universal formula.**
 
-This public track records the research framework for controlled material reconstruction.
+This directory is the separate Fabricator / Duplicator material-reconstruction track. It is not a substitute for the published **Replicator Engine & System Control Architecture — 50% Milestone**, which has its own browsable record under [REPLICATOR/](../../REPLICATOR/).
 
 ## Documents
 
