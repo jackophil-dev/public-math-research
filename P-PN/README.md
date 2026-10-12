@@ -29,3 +29,11 @@ Règle Zéro: no missing geometric data are invented.
 **Bloc B — geometric identification: OPEN**
 
 The material in this directory is intended to remain independently inspectable and reproducible.
+
+
+## Publication and reproduction guide
+
+- [Publication record](Publication.md) — selected DOI, release scope, and archive relationship.
+- [Research dossier](RESEARCH-DOSSIER.md) — mathematical definitions, listed invariants, reproduction checklist, and open identification boundary.
+
+The GitHub directory is a browsable companion, not a claim that every Zenodo deposit file is mirrored here. Use the Zenodo record's file list to identify the canonical release artifacts.
