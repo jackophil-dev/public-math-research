@@ -67,6 +67,16 @@ The repository does not present an open geometric identification or an unresolve
 
 ---
 
+## Published Research Tracks
+
+- [HODGE/](HODGE/) — Weil-type abelian fourfolds and H01–H12 certificates. [Zenodo DOI](https://doi.org/10.5281/zenodo.23117845)
+- [P-PN/](P-PN/) — exterior arithmetic, primitive bivectors, lattice invariants, and open geometric-identification gate. [Zenodo DOI](https://doi.org/10.5281/zenodo.23196136)
+- [REPLICATOR/](REPLICATOR/) — Replicator Engine & System Control Architecture, v0.50-RC1 milestone, certificates and conditional theorem statements. [Zenodo DOI](https://doi.org/10.5281/zenodo.23204583)
+- [NAVIER-STOKES/](NAVIER-STOKES/) — Part I structural identities and open global-regularity boundary. [DOI listed in ORCID](https://doi.org/10.5281/zenodo.23248842)
+- [Birch and Swinnerton/](Birch%20and%20Swinnerton/) — BSD Part I framework, certificate/theorem registers, and open problems. [Zenodo DOI](https://doi.org/10.5281/zenodo.23304606)
+
+The GitHub research files are intended to be browsable companions. A GitHub folder is not automatically a byte-for-byte mirror of a Zenodo deposit; use each publication record and the Zenodo file manifest to determine which versioned files are canonical. The Replicator DOI above is the selected citation target for one milestone; the author reports additional same-license records were accidentally created for the same work and should not be treated as separate research outputs.
+
 ## Citation
 
 For citation metadata, see [CITATION.cff](CITATION.cff).
