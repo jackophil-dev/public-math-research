@@ -1,0 +1,4 @@
+# Dependencies for scripts/validate_lattice.py
+# Tested with Python 3.13.5 and SymPy 1.14.0.
+# Legacy operating-system compatibility has not been tested.
+sympy==1.14.0
