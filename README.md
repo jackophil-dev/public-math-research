@@ -85,6 +85,19 @@ The research is also archived through Zenodo where indicated in the research mat
 
 ---
 
-## Independent Research
+## Independent Research and Verification Approach
 
-This is independent mathematical research. AI tools may assist with organization, symbolic computation, checking, or research workflow, but mathematical claims are intended to remain independently inspectable and verifiable from the public record.
+This is an independent research program spanning several distinct areas of mathematics and system architecture. Each track retains its own scope, assumptions, evidence, and unresolved questions.
+
+The work combines mathematical derivations, exact arithmetic, computational checks, structured research records, and explicit verification boundaries. Public claims are classified according to what the available evidence supports:
+
+- **PROVED** — established from stated hypotheses by a mathematical argument.
+- **DERIVED** — obtained through a documented derivation, with its assumptions made explicit.
+- **COMPUTATIONALLY VERIFIED** — checked by computation from the stated inputs; this status alone does not imply a general mathematical proof.
+- **OPEN** — an unresolved question, missing implication, or boundary that has not been established.
+
+A numerical match or successful computation is not, by itself, proof of geometric realization, a general theorem, or resolution of an open problem. Where a required step remains unresolved, the public record should say so rather than infer a conclusion.
+
+AI tools may assist with exploration, organization, symbolic computation, checking, and technical writing. Their outputs are not automatically verified results. Mathematical claims are intended to remain independently inspectable against the stated assumptions, calculations, and public evidence. Responsibility for the research record and the interpretation of its claims remains with the independent researcher, Philippe Beauchamp.
+
+Only material intended for public inspection is included here. Private implementation details and unresolved supporting material are not included merely to make a public presentation appear more complete.
